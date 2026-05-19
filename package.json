@@ -1,0 +1,16 @@
+{
+  "name": "found-cat-oakland",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create found-cat-oakland",
+    "db:migrate:local": "wrangler d1 execute found-cat-oakland --local --file=./schema.sql",
+    "db:migrate:remote": "wrangler d1 execute found-cat-oakland --remote --file=./schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
