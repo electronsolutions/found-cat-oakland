@@ -1,0 +1,19 @@
+ADMIN_TOKEN=replace-with-a-long-random-admin-token
+TURNSTILE_SITE_KEY=1x00000000000000000000AA
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+CONTACT_EMAIL=you@example.com
+PUBLIC_NEIGHBORHOOD=East 19th Street and 12th Avenue, Oakland, CA
+
+VENMO_URL=
+CASHAPP_URL=
+PAYPAL_URL=
+GOFUNDME_URL=
+OPTIONAL_RECEIPTS_URL=
+
+# Optional email notifications through Resend.
+# If these are blank, the site still stores submissions and works normally.
+RESEND_API_KEY=
+EMAIL_FROM=Found Cat Oakland <notifications@example.com>
+
+# Optional generic webhook fallback for notifications.
+EMAIL_WEBHOOK_URL=
