@@ -1,0 +1,16 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "found-cat-oakland",
+	"main": "src/index.js",
+	"compatibility_date": "2026-05-19",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "found-cat-oakland",
+			"database_id": "87536df9-6863-44d0-8049-da0706d0806c"
+		}
+	]
+}
